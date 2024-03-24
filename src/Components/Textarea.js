@@ -135,20 +135,20 @@ export default function Textarea(props) {
             rows="6"
           ></textarea>
         </div>
-        <button className="btn btn-primary" onClick={handleUpClick}>
+        <button className="btn btn-primary mx-1" onClick={handleUpClick}>
           Convert to Uppercase
         </button>
-        <button className="btn btn-primary" onClick={handleDownClick}>
+        <button className="btn btn-primary mx-2" onClick={handleDownClick}>
           Convert to Lowercase
         </button>
         <button className="btn btn-primary" onClick={findUrl}>
           <a href="#urls">Find URLs in the text</a>
         </button>
-        <button className="btn btn-primary mx-4" onClick={handleSpaces}>
+        <button className="btn btn-primary mx-2" onClick={handleSpaces}>
           {" "}
           Remove Extra spaces
         </button>
-        <button className="btn btn-primary mx-4" onClick={clearText}>
+        <button className="btn btn-primary mx-2" onClick={clearText}>
           Clear Text
         </button>
       </div>
