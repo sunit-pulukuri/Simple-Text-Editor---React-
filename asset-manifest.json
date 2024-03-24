@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Text-Utilities-App/static/css/main.4556e323.css",
-    "main.js": "/Text-Utilities-App/static/js/main.36cba8be.js",
-    "static/js/453.e027dca4.chunk.js": "/Text-Utilities-App/static/js/453.e027dca4.chunk.js",
-    "index.html": "/Text-Utilities-App/index.html",
-    "main.4556e323.css.map": "/Text-Utilities-App/static/css/main.4556e323.css.map",
-    "main.36cba8be.js.map": "/Text-Utilities-App/static/js/main.36cba8be.js.map",
-    "453.e027dca4.chunk.js.map": "/Text-Utilities-App/static/js/453.e027dca4.chunk.js.map"
+    "main.css": "/my-app/static/css/main.82cabc3a.css",
+    "main.js": "/my-app/static/js/main.653c8cd9.js",
+    "static/js/453.e027dca4.chunk.js": "/my-app/static/js/453.e027dca4.chunk.js",
+    "index.html": "/my-app/index.html",
+    "main.82cabc3a.css.map": "/my-app/static/css/main.82cabc3a.css.map",
+    "main.653c8cd9.js.map": "/my-app/static/js/main.653c8cd9.js.map",
+    "453.e027dca4.chunk.js.map": "/my-app/static/js/453.e027dca4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4556e323.css",
-    "static/js/main.36cba8be.js"
+    "static/css/main.82cabc3a.css",
+    "static/js/main.653c8cd9.js"
   ]
 }
