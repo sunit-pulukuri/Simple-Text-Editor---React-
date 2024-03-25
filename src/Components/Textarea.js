@@ -1,6 +1,6 @@
-import React, { useState, useSyncExternalStore } from "react";
-import PropTypes from "prop-types";
-import Alert from "./Alert";
+import React, { useState} from "react";
+// import PropTypes from "prop-types";
+// import Alert from "./Alert";
 
 export default function Textarea(props) {
   const [text, setText] = useState("");
@@ -46,7 +46,7 @@ export default function Textarea(props) {
   const wordLength = () => {
     if (text.endsWith(" ")) {
       return text.split(" ").length - 1;
-    } else if (text.trim() == false) {
+    } else if (text.trim() === false) {
       return 0;
     }
     return text.split(" ").length;
@@ -105,7 +105,7 @@ export default function Textarea(props) {
     let count = 0;
     let newString = text.split(" ");
     for (let z = 0; z < newString.length; z++) {
-      if (newString[z].toLowerCase() == searchTerm.toLowerCase()) {
+      if (newString[z].toLowerCase() === searchTerm.toLowerCase() || newString[z].toLowerCase() === searchTerm.toLowerCase()+",") {
         count++;
       }
     }
