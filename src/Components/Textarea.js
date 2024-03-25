@@ -103,9 +103,11 @@ export default function Textarea(props) {
 
   const handleSearch = () => {
     let count = 0;
-    let newString = text.split(" ");
-    for (let z = 0; z < newString.length; z++) {
-      if (newString[z].toLowerCase() === searchTerm.toLowerCase() || newString[z].toLowerCase() === searchTerm.toLowerCase()+",") {
+    // let newString = text.split(" ");
+    let newText = text.split(/[ \n]+/);
+    newText.join(" ")
+    for (let z = 0; z < newText.length; z++) {
+      if (newText[z].toLowerCase() === searchTerm.toLowerCase() || newText[z].toLowerCase() === searchTerm.toLowerCase()+",") {
         count++;
       }
     }
